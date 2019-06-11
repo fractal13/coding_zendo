@@ -28,7 +28,7 @@ These instructions use the advanced settings following [these instructions](http
   For this example, we will use, `abracadabra`.
 - *Find Phonemes*: Use the [CMU Dictionary](http://www.speech.cs.cmu.edu/cgi-bin/cmudict) to 
   identify the phonemes, the basic sounds, that are used to pronounce your phrase.  For example, `AE B R AH K AH D AE B R AH .`.
-- *Edit Config File*: On the Mycroft system, edit `/home/pi/.mycroft/mycroft.conf`.  Add this clause, if it isn't already there.  Just change it if it is already there.  We may need to talk about JSON here.
+- *Edit Config File*: On the Mycroft system, edit `nano /home/pi/.mycroft/mycroft.conf`.  Add this clause, if it isn't already there.  Just change it if it is already there.  We may need to talk about JSON here.
 
 
     "listener": {
