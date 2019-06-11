@@ -23,4 +23,12 @@ Audio Output
 We experienced a few anomalies in our audio output.
 Check out [these instructions](audio/) for our solution.
 
+WiFi Configuration
+------------------
 
+TBA
+
+Creating the Case
+-----------------
+
+[Our case build instructions](laser-cut-case/).
