@@ -30,6 +30,7 @@ These instructions use the advanced settings following [these instructions](http
   identify the phonemes, the basic sounds, that are used to pronounce your phrase.  For example, `AE B R AH K AH D AE B R AH .`.
 - *Edit Config File*: On the Mycroft system, edit `/home/pi/.mycroft/mycroft.conf`.  Add this clause, if it isn't already there.  Just change it if it is already there.  We may need to talk about JSON here.
 
+
     "listener": {
       "multiplier": 1,
       "phonemes": "AE B R AH K AH D AE B R AH .",
@@ -39,6 +40,7 @@ These instructions use the advanced settings following [these instructions](http
       "sample_rate": 16000,
       "channels": 1
     }
+    
 
   Assuming you place this at the end, inside of the `{}` that are already there, you will need to put a `,` at the end
   of the entry that used to be the last item there.
