@@ -32,3 +32,10 @@ Creating the Case
 -----------------
 
 [Our case build instructions](laser-cut-case/).
+
+
+Customizing Mycroft
+-------------------
+
+We completed several customization steps to personalize
+our Picroft installation.  See [what we did](customization/).
