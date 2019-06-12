@@ -53,3 +53,6 @@ Shorter Download/Edit
 
 - *Download*: and install the script: 
    `curl --output ~/.mycroft/mycroft.conf https://raw.githubusercontent.com/fractal13/coding_zendo/master/customization/user_mycroft.conf`
+- *Edit*: to change the actual wake word phrase. `nano ~/.mycroft/mycroft.conf`
+
+
