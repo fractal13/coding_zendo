@@ -98,45 +98,6 @@ Install a Skill
   to configure your user name and password for the Pandora skill.  `:quit`.  `nano .libao`.  Remove `pcm=0` and set `default_driver=alsa`.
   Now, `reboot` to get Mycroft to pickup the configuration. "Hey Mycroft", *beep*, "Play Pandora".
 
-Create a Skill
---------------
-
-[Mycroft instructions for creating a skill](https://mycroft.ai/documentation/skills/introduction-developing-skills/).
-
-[Sample skill](https://github.com/fractal13/skill-hello-anyone)
-
-Installing a "non-official" skill from a git repository
--------------------------------------------------------
-
-## Method 1
-- Go to the skills in [home.mycroft.ai](https://account.mycroft.ai/skills).
-- Find the Installer skill.
-- Expand it.
-- Put the https:// URL of the git repository in the box.
-- "Hey Mycroft", *beep*, "Download custom skill"
-- *Note* I had multiple devices bunched together in the configuration, and that
-  didn't work.  The Web Interface eventually separated them for me.  And then
-  it worked.
-- Remove the URL from the Installer Configuration.
-
-/*
-- Check "Automatic Install".
-- Save.
-- Wait for Mycroft to install it on your device.
-- *29 May 2019*, it appears that the installer in the Picroft is having troubles talking to the
-  server for skills.  Nothing above worked.
-*/
-
-## Method 2
-- Obtain bash access.
-- `source ~/mycroft/.venv/bin/activate`
-- `msm install https://github.com/fractal13/skill-hello-anyone.git`
-
-## Method 3
-- Obtain bash access.
-- cd to the skill folder
-- `ln -s $( pwd ) /opt/mycroft/skills/`
-
 
 
 

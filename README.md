@@ -39,3 +39,8 @@ Customizing Mycroft
 
 We completed several customization steps to personalize
 our Picroft installation.  See [what we did](customization/).
+
+Creating a Skill
+----------------
+
+[Create your first skill](skills/)
