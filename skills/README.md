@@ -129,11 +129,11 @@ So, you can see how the skill works, but you want to modify it to make it fit yo
 purposes better.  You're going to make a copy of this skill, modify it to your
 liking, then install it on your device.
 
-- *Create github account*: 
-- *Fork the skill*: 
-- *Download skill to computer*: 
-- *Edit skill*: 
-- *Send changes to github*: 
+- *Create github account*: On the github.com website.
+- *Fork the skill*: On the github.com website.
+- *Download skill to computer*: This is *your* computer, not the Mycroft device.
+- *Edit skill*: Edit the vocabulary, dialog, and programming logic.
+- *Send changes to github*: Add, commit and push the changes to the cloud.
 - *Install skill on Mycroft*: [install skill](install_skill/)
 
 
