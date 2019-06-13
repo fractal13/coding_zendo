@@ -36,7 +36,7 @@ Check out [these instructions](audio/) for our solution.
 WiFi Configuration
 ------------------
 
-TBA
+See our [notes on wifi](wifi/).
 
 Creating the Case
 -----------------
