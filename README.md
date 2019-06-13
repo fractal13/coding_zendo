@@ -24,7 +24,7 @@ purchase.
 Disk Image
 ----------
 
-TBA
+We have a [custom disk image](disk_image/).
 
 
 Audio Output
