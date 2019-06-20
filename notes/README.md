@@ -56,14 +56,6 @@ heat sinks already installed.  Also, have the microphone and speakers already at
 
 The system will come to a setup Wizard.  Go with it.
 
-- *Guided Setup* - `Y`es.
-- *Audio Output* - `3` for USB speaker.  `7` for volume.  `D`one.  Previously, with different speakers, I used: `1` for audio jack.  `9` for volume. `D` for done.
-- *Microphone* - `1` for PlayStation Eye.  Didn't hear audio because aplay failed (aplay: set_params:1305: Channels count non available). `3` to continue anyway.  Previously, with different USB microphone, I used: `4` for other USB. Input test fails immediately. `3` to continue anyway.
-- *Mycroft release* - `1` for `master` branch, the more stable choice.
-- *Security Admin* - `1` to stick with Raspbian default of no password to administer system. Easier to use, less secure.
-- *Password* - `Y`es change the password to something else, that you can remember.
-- *Launch Mycroft* - Any key. Be patient, several one-time-only setup operations will proceed from here. 
-  This took almost 5 minutes on my system.  Be patient. Several apparent errors occur. It's OK.  Let it ride
 - *Fix USB Audio* - The USB Audio option doesn't work for mono audio WAV files, which are most of the generated voice files for Mycroft.  `sudo nano /etc/mycroft/mycroft.conf` change `hw:0,0` to `plughw:0,0` for the `aplay` command.  Save and exit.  (Could this be done before booting the first time?)
 - *Reboot* - After a while, the display will stop advancing.  Hit "Enter".  You should see a command prompt.  Type `reboot`.
 - *Command Console* - The Command Line Interface (CLI) should start up and show you its progress.
