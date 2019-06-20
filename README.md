@@ -54,3 +54,8 @@ Creating a Skill
 ----------------
 
 [Create your first skill](skills/)
+
+Existing Skills
+---------------
+
+[Some existing skills](existing_skills/)
